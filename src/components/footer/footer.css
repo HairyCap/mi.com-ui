@@ -1,0 +1,98 @@
+.footer {
+    height: 272px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.footer-service {
+    width: 1226px;
+    display: flex;
+    padding: 27px 0;
+    justify-content: space-around;
+    border-bottom: 1px solid #e0e0e0
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19.8%;
+}
+
+
+.service:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.footer-links {
+    width: 1226px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a{
+    color: #616161;
+}
+
+.footer-links {
+    padding: 40px 0 20px 0;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links .links a{
+    color:#757575;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.contact {
+    width: 252px;
+    height: 111px;
+    border-left: 1px solid #e0e0e0
+}
+
+.contact p {
+    padding: 0;
+    margin: 0;
+}
+
+.contact .phone-number {
+    color: #ff6700;
+    font-size: 1.4em;
+}
+
+.contact .on-line-time {
+    color: #616161;
+    font-size: .7em;
+    margin: 0 0 5px 0;
+}
+
+.contact .subscribe-mi {
+    color: #616161;
+    font-size: .7em;
+    margin: 10px 0 0 0;
+}
+
+.contact button{
+    width: 120px;
+    height:30px;
+    background-color: #fff;
+    color: #ff6700;
+    font-size: .7em;
+    border: 1px solid #ff6700;
+    padding: 0;
+    margin:0;
+}

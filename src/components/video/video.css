@@ -1,0 +1,10 @@
+.VideoBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoCards {
+    width: 1226px;
+    display: flex;
+    justify-content: space-between;
+}

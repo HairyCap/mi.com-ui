@@ -1,0 +1,47 @@
+.brickBox {
+    width: 1226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baner {
+    margin: 20px 0;
+}
+
+.baner img{
+    width: 1226px;
+    height: 120px;
+}
+
+.boxTitle {
+    height:58px;
+    font-weight: 200;
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.boxTitle .titlespace {
+    flex: 1
+}
+
+.titlespace {
+    flex: 1;
+}
+
+.boxMain {
+    display: flex;
+}
+
+.promoCards {
+    display: flex;
+    flex-direction: column;
+}
+
+.productCards {
+    display: flex;
+    flex-wrap: wrap;
+
+}

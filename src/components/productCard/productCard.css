@@ -1,0 +1,55 @@
+.productCard {
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px 0;
+    margin-left: 14px; 
+    margin-bottom: 14px; 
+    transition: all .2s linear;
+}
+
+.productCard p{
+    padding: 0;
+    margin: 0;
+}
+.productCard img{
+    width: 160px;
+    height: 160px;
+}
+
+.productCard .price{
+    display: inline;
+    color: #ff6700;
+    font-size: .9em;
+}
+
+.productCard .prePrice{
+    text-decoration: line-through;
+    font-size: .9em;
+}
+
+a.productCard:hover{
+    color: #bbb;
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    transform: translate3d(0,-2px,0);
+}
+
+.productCard .title {
+    color: #000;
+    font-size:.9em;
+    margin-bottom: 2px;
+}
+
+.productCard .description {
+    font-size: .7em;
+    margin-bottom: 10px;
+}
+
+.productCard img {
+    margin-bottom: 18px;
+}

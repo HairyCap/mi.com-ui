@@ -1,0 +1,27 @@
+.videoCard {
+    width: 296px;
+    height: 285px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: all .2s linear;
+    background-color: #fff;
+}
+
+.videoTitle {
+    padding-top:25px;
+    font-size: .9em;
+}
+
+.videoCard:hover {
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.thumbnail img {
+    width:296px;
+    height:180px
+}
